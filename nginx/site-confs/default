@@ -1,7 +1,7 @@
 ## Version 2018/03/06 - Changelog: https://github.com/linuxserver/docker-heimdall/commits/master/root/defaults/default
 
 upstream emulated_hue {
-	server vm-infra:8300;
+	server vm-infra.lan:8300;
 }
 
 server {
